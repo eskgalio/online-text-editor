@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rich Text Editor with Markdown</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="editor-container">
+        <h1>Rich Text Editor with Markdown Support</h1>
+        <textarea id="editor" placeholder="Type your markdown here..."></textarea>
+        <div class="toolbar">
+            <button data-markdown="**bold**">Bold</button>
+            <button data-markdown="_italic_">Italic</button>
+            <button data-markdown="`code`">Code</button>
+            <button data-markdown="> blockquote">Blockquote</button>
+            <button data-markdown="[link](http://example.com)">Link</button>
+        </div>
+        <div class="output-container">
+            <h2>Preview</h2>
+            <div id="preview"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
