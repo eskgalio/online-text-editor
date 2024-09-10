@@ -65,7 +65,3 @@ Contributions are welcome! If you have any suggestions or improvements, feel fre
 ## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-This README should provide a good first impression of your project on GitHub. You can add a screenshot to showcase the interface and update the `git clone` URL with your repository link after uploading the project.
